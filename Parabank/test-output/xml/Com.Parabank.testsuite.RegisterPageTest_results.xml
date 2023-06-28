@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="parabank"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.384">
+  <properties />
+  
+  
+            <testcase name="verifyUserShouldNavigateToRegisterPage" time="0.885" classname="Com.Parabank.testsuite.RegisterPageTest" />
+                <testcase name="userSholdRegisterAccountSuccessfully" time="3.499" classname="Com.Parabank.testsuite.RegisterPageTest" />
+      
+</testsuite>

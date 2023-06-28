@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[item added msg By.xpath: //h1]]>
+    </line>
+    <line>
+      <![CDATA[item added msg By.id: product_attribute_1]]>
+    </line>
+    <line>
+      <![CDATA[item added msg By.id: product_attribute_2]]>
+    </line>
+    <line>
+      <![CDATA[price of product is By.xpath: //span[@id='price-value-1']]]>
+    </line>
+    <line>
+      <![CDATA[item added msg By.xpath: //p[contains(text(),'The product has been added to your ')]]]>
+    </line>
+    <line>
+      <![CDATA[shopping cart message By.xpath: //h1<br>]]>
+    </line>
+    <line>
+      <![CDATA[change quantity By.xpath: //input[@class='qty-input']<br>]]>
+    </line>
+    <line>
+      <![CDATA[total By.xpath: //span[@class='product-subtotal']<br>]]>
+    </line>
+    <line>
+      <![CDATA[firstname By.id: BillingNewAddress_FirstName<br>]]>
+    </line>
+    <line>
+      <![CDATA[lastnameBy.id: BillingNewAddress_LastName<br>]]>
+    </line>
+    <line>
+      <![CDATA[email By.id: BillingNewAddress_Email<br>]]>
+    </line>
+    <line>
+      <![CDATA[countryBy.id: BillingNewAddress_CountryId<br>]]>
+    </line>
+    <line>
+      <![CDATA[state By.id: BillingNewAddress_StateProvinceId<br>]]>
+    </line>
+    <line>
+      <![CDATA[cityBy.id: BillingNewAddress_StateProvinceId<br>]]>
+    </line>
+    <line>
+      <![CDATA[addressBy.id: BillingNewAddress_Address1<br>]]>
+    </line>
+    <line>
+      <![CDATA[zipcodeBy.id: BillingNewAddress_ZipPostalCode<br>]]>
+    </line>
+    <line>
+      <![CDATA[creditcard By.xpath: //label[contains(text(),'Credit Card')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[placed successfull By.xpath: //div[@class='title']/strong[contains(text(),'Your order has been successfully processed!')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[navigate to another page after successfull order By.xpath: //h2<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="30074" started-at="2023-06-27T12:16:40 BST" finished-at="2023-06-27T12:17:10 BST">
+    <groups>
+      <group name="hh1">
+        <method signature="ComputerPageTest.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.testsuite.ComputerPageTest@131276c2]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.testsuite.ComputerPageTest"/>
+      </group> <!-- hh1 -->
+      <group name="hh">
+        <method signature="ComputerPageTest.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.testsuite.ComputerPageTest@131276c2]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.testsuite.ComputerPageTest"/>
+      </group> <!-- hh -->
+    </groups>
+    <test name="computer test" duration-ms="30074" started-at="2023-06-27T12:16:40 BST" finished-at="2023-06-27T12:17:10 BST">
+      <class name="com.testsuite.ComputerPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testsuite.ComputerPageTest@131276c2]" name="setUp" is-config="true" duration-ms="7002" started-at="2023-06-27T12:16:40 BST" finished-at="2023-06-27T12:16:47 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.testsuite.ComputerPageTest@131276c2]" name="verifyProductAddedToShoppingCartSuccessFully" duration-ms="17101" started-at="2023-06-27T12:16:47 BST" finished-at="2023-06-27T12:17:04 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[item added msg By.xpath: //h1]]>
+            </line>
+            <line>
+              <![CDATA[item added msg By.id: product_attribute_1]]>
+            </line>
+            <line>
+              <![CDATA[item added msg By.id: product_attribute_2]]>
+            </line>
+            <line>
+              <![CDATA[price of product is By.xpath: //span[@id='price-value-1']]]>
+            </line>
+            <line>
+              <![CDATA[item added msg By.xpath: //p[contains(text(),'The product has been added to your ')]]]>
+            </line>
+            <line>
+              <![CDATA[shopping cart message By.xpath: //h1<br>]]>
+            </line>
+            <line>
+              <![CDATA[change quantity By.xpath: //input[@class='qty-input']<br>]]>
+            </line>
+            <line>
+              <![CDATA[total By.xpath: //span[@class='product-subtotal']<br>]]>
+            </line>
+            <line>
+              <![CDATA[firstname By.id: BillingNewAddress_FirstName<br>]]>
+            </line>
+            <line>
+              <![CDATA[lastnameBy.id: BillingNewAddress_LastName<br>]]>
+            </line>
+            <line>
+              <![CDATA[email By.id: BillingNewAddress_Email<br>]]>
+            </line>
+            <line>
+              <![CDATA[countryBy.id: BillingNewAddress_CountryId<br>]]>
+            </line>
+            <line>
+              <![CDATA[state By.id: BillingNewAddress_StateProvinceId<br>]]>
+            </line>
+            <line>
+              <![CDATA[cityBy.id: BillingNewAddress_StateProvinceId<br>]]>
+            </line>
+            <line>
+              <![CDATA[addressBy.id: BillingNewAddress_Address1<br>]]>
+            </line>
+            <line>
+              <![CDATA[zipcodeBy.id: BillingNewAddress_ZipPostalCode<br>]]>
+            </line>
+            <line>
+              <![CDATA[creditcard By.xpath: //label[contains(text(),'Credit Card')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[placed successfull By.xpath: //div[@class='title']/strong[contains(text(),'Your order has been successfully processed!')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[navigate to another page after successfull order By.xpath: //h2<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToShoppingCartSuccessFully -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testsuite.ComputerPageTest@131276c2]" name="setUp" is-config="true" duration-ms="4453" started-at="2023-06-27T12:17:04 BST" finished-at="2023-06-27T12:17:08 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.testsuite.ComputerPageTest@131276c2]" name="verifyProductArrangeInAlphaBaticalOrder" duration-ms="1442" started-at="2023-06-27T12:17:08 BST" finished-at="2023-06-27T12:17:10 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphaBaticalOrder -->
+      </class> <!-- com.testsuite.ComputerPageTest -->
+    </test> <!-- computer test -->
+  </suite> <!-- testsuite -->
+</testng-results>

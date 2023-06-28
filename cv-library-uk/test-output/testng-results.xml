@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[location By.xpath: //input[@id='location']<br>]]>
+    </line>
+    <line>
+      <![CDATA[min salary By.xpath: //input[@id='salarymin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[max salary By.xpath: //input[@id='salarymax']<br>]]>
+    </line>
+    <line>
+      <![CDATA[salarytype By.xpath: //select[@id='salarytype']<br>]]>
+    </line>
+    <line>
+      <![CDATA[jobtype Permanent<br>]]>
+    </line>
+    <line>
+      <![CDATA[findjobsBy.xpath: //input[@id='hp-search-btn']<br>]]>
+    </line>
+    <line>
+      <![CDATA[welcome textBy.xpath: //h1<br>]]>
+    </line>
+    <line>
+      <![CDATA[welcome textBy.xpath: //h1<br>]]>
+    </line>
+    <line>
+      <![CDATA[welcome textBy.xpath: //h1<br>]]>
+    </line>
+    <line>
+      <![CDATA[data provider [[Ljava.lang.Object;@7a138fc5<br>]]>
+    </line>
+    <line>
+      <![CDATA[location By.xpath: //input[@id='location']<br>]]>
+    </line>
+    <line>
+      <![CDATA[min salary By.xpath: //input[@id='salarymin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[max salary By.xpath: //input[@id='salarymax']<br>]]>
+    </line>
+    <line>
+      <![CDATA[salarytype By.xpath: //select[@id='salarytype']<br>]]>
+    </line>
+    <line>
+      <![CDATA[jobtype Permanent<br>]]>
+    </line>
+    <line>
+      <![CDATA[findjobsBy.xpath: //input[@id='hp-search-btn']<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="44668" started-at="2023-06-27T15:25:13 BST" finished-at="2023-06-27T15:25:57 BST">
+    <groups>
+    </groups>
+    <test name="cvlibrary test" duration-ms="44668" started-at="2023-06-27T15:25:13 BST" finished-at="2023-06-27T15:25:57 BST">
+      <class name="uk.co.library.testsuite.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.HomePageTest@614ddd49]" name="setUp" is-config="true" duration-ms="7142" started-at="2023-06-27T15:25:13 BST" finished-at="2023-06-27T15:25:20 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLocators()[pri:0, instance:uk.co.library.testsuite.HomePageTest@614ddd49]" name="verifyLocators" duration-ms="28072" started-at="2023-06-27T15:25:20 BST" finished-at="2023-06-27T15:25:48 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[location By.xpath: //input[@id='location']<br>]]>
+            </line>
+            <line>
+              <![CDATA[min salary By.xpath: //input[@id='salarymin']<br>]]>
+            </line>
+            <line>
+              <![CDATA[max salary By.xpath: //input[@id='salarymax']<br>]]>
+            </line>
+            <line>
+              <![CDATA[salarytype By.xpath: //select[@id='salarytype']<br>]]>
+            </line>
+            <line>
+              <![CDATA[jobtype Permanent<br>]]>
+            </line>
+            <line>
+              <![CDATA[findjobsBy.xpath: //input[@id='hp-search-btn']<br>]]>
+            </line>
+            <line>
+              <![CDATA[welcome textBy.xpath: //h1<br>]]>
+            </line>
+            <line>
+              <![CDATA[welcome textBy.xpath: //h1<br>]]>
+            </line>
+            <line>
+              <![CDATA[welcome textBy.xpath: //h1<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLocators -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.HomePageTest@614ddd49]" name="tearDown" is-config="true" duration-ms="838" started-at="2023-06-27T15:25:48 BST" finished-at="2023-06-27T15:25:49 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uk.co.library.testsuite.HomePageTest -->
+      <class name="uk.co.library.testsuite.JobSreachTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSreachTest@6ee52dcd]" name="setUp" is-config="true" duration-ms="3960" started-at="2023-06-27T15:25:49 BST" finished-at="2023-06-27T15:25:53 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSreachTest@6ee52dcd]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="3822" started-at="2023-06-27T15:25:53 BST" data-provider="resultData" finished-at="2023-06-27T15:25:57 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harrow, Greater London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[50000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per annum]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Permanent]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Permanent Tester jobs in Harrow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[location By.xpath: //input[@id='location']<br>]]>
+            </line>
+            <line>
+              <![CDATA[min salary By.xpath: //input[@id='salarymin']<br>]]>
+            </line>
+            <line>
+              <![CDATA[max salary By.xpath: //input[@id='salarymax']<br>]]>
+            </line>
+            <line>
+              <![CDATA[salarytype By.xpath: //select[@id='salarytype']<br>]]>
+            </line>
+            <line>
+              <![CDATA[jobtype Permanent<br>]]>
+            </line>
+            <line>
+              <![CDATA[findjobsBy.xpath: //input[@id='hp-search-btn']<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSreachTest@6ee52dcd]" name="tearDown" is-config="true" duration-ms="751" started-at="2023-06-27T15:25:57 BST" finished-at="2023-06-27T15:25:57 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uk.co.library.testsuite.JobSreachTest -->
+    </test> <!-- cvlibrary test -->
+  </suite> <!-- testsuite -->
+</testng-results>

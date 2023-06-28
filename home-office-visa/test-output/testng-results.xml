@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[click startbtn By.cssSelector: a[class='gem-c-button govuk-button govuk-button--start']<br>]]>
+    </line>
+    <line>
+      <![CDATA[naionalityBy.xpath: //select[@id='response']<br>]]>
+    </line>
+    <line>
+      <![CDATA[click continueBy.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Message Check if you need a UK visa<br>]]>
+    </line>
+    <line>
+      <![CDATA[result text By.xpath: //span[@class='govuk-caption-l']<br>]]>
+    </line>
+    <line>
+      <![CDATA[reson for traveling By.id: response-0<br>]]>
+    </line>
+    <line>
+      <![CDATA[continue btn By.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on yes By.id: response-0<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on continue By.cssSelector: button[class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[click startbtn By.cssSelector: a[class='gem-c-button govuk-button govuk-button--start']<br>]]>
+    </line>
+    <line>
+      <![CDATA[naionalityBy.xpath: //select[@id='response']<br>]]>
+    </line>
+    <line>
+      <![CDATA[click continueBy.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[select work from list By.id: response-1<br>]]>
+    </line>
+    <line>
+      <![CDATA[continue btn By.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[more than 6 monthsBy.id: response-1<br>]]>
+    </line>
+    <line>
+      <![CDATA[select job By.id: response-0<br>]]>
+    </line>
+    <line>
+      <![CDATA[welcome message By.xpath: //h2[@class='gem-c-heading gem-c-heading--font-size-27 govuk-!-margin-bottom-6']<br>]]>
+    </line>
+    <line>
+      <![CDATA[click startbtn By.cssSelector: a[class='gem-c-button govuk-button govuk-button--start']<br>]]>
+    </line>
+    <line>
+      <![CDATA[naionalityBy.xpath: //select[@id='response']<br>]]>
+    </line>
+    <line>
+      <![CDATA[click continueBy.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[reson for traveling By.id: response-0<br>]]>
+    </line>
+    <line>
+      <![CDATA[continue btn By.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[navigation message By.xpath: //h2[@class='gem-c-heading gem-c-heading--font-size-27 govuk-!-margin-bottom-6']<br>]]>
+    </line>
+    <line>
+      <![CDATA[click startbtn By.cssSelector: a[class='gem-c-button govuk-button govuk-button--start']<br>]]>
+    </line>
+    <line>
+      <![CDATA[naionalityBy.xpath: //select[@id='response']<br>]]>
+    </line>
+    <line>
+      <![CDATA[click continueBy.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[continue btn By.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on yes By.id: response-0<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on continue By.cssSelector: button[class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+    </line>
+    <line>
+      <![CDATA[welcome message By.xpath: //h2[@class='gem-c-heading gem-c-heading--font-size-27 govuk-!-margin-bottom-6']<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="28411" started-at="2023-06-27T21:20:58 BST" finished-at="2023-06-27T21:21:26 BST">
+    <groups>
+    </groups>
+    <test name="visa home office" duration-ms="28411" started-at="2023-06-27T21:20:58 BST" finished-at="2023-06-27T21:21:26 BST">
+      <class name="gov.uk.check.visa.testsuite.StartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:gov.uk.check.visa.testsuite.StartPageTest@76707e36]" name="setUp" is-config="true" duration-ms="6959" started-at="2023-06-27T21:20:58 BST" finished-at="2023-06-27T21:21:05 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAllPagesLocators()[pri:0, instance:gov.uk.check.visa.testsuite.StartPageTest@76707e36]" name="verifyAllPagesLocators" duration-ms="2120" started-at="2023-06-27T21:21:05 BST" finished-at="2023-06-27T21:21:07 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[click startbtn By.cssSelector: a[class='gem-c-button govuk-button govuk-button--start']<br>]]>
+            </line>
+            <line>
+              <![CDATA[naionalityBy.xpath: //select[@id='response']<br>]]>
+            </line>
+            <line>
+              <![CDATA[click continueBy.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Message Check if you need a UK visa<br>]]>
+            </line>
+            <line>
+              <![CDATA[result text By.xpath: //span[@class='govuk-caption-l']<br>]]>
+            </line>
+            <line>
+              <![CDATA[reson for traveling By.id: response-0<br>]]>
+            </line>
+            <line>
+              <![CDATA[continue btn By.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on yes By.id: response-0<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on continue By.cssSelector: button[class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAllPagesLocators -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gov.uk.check.visa.testsuite.StartPageTest@76707e36]" name="tearDown" is-config="true" duration-ms="827" started-at="2023-06-27T21:21:07 BST" finished-at="2023-06-27T21:21:08 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gov.uk.check.visa.testsuite.StartPageTest -->
+      <class name="gov.uk.check.visa.testsuite.VisaConfimationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:gov.uk.check.visa.testsuite.VisaConfimationTest@704a52ec]" name="setUp" is-config="true" duration-ms="3361" started-at="2023-06-27T21:21:08 BST" finished-at="2023-06-27T21:21:11 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths()[pri:1, instance:gov.uk.check.visa.testsuite.VisaConfimationTest@704a52ec]" name="aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths" duration-ms="2266" started-at="2023-06-27T21:21:11 BST" finished-at="2023-06-27T21:21:13 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[click startbtn By.cssSelector: a[class='gem-c-button govuk-button govuk-button--start']<br>]]>
+            </line>
+            <line>
+              <![CDATA[naionalityBy.xpath: //select[@id='response']<br>]]>
+            </line>
+            <line>
+              <![CDATA[click continueBy.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+            </line>
+            <line>
+              <![CDATA[select work from list By.id: response-1<br>]]>
+            </line>
+            <line>
+              <![CDATA[continue btn By.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+            </line>
+            <line>
+              <![CDATA[more than 6 monthsBy.id: response-1<br>]]>
+            </line>
+            <line>
+              <![CDATA[select job By.id: response-0<br>]]>
+            </line>
+            <line>
+              <![CDATA[welcome message By.xpath: //h2[@class='gem-c-heading gem-c-heading--font-size-27 govuk-!-margin-bottom-6']<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gov.uk.check.visa.testsuite.VisaConfimationTest@704a52ec]" name="tearDown" is-config="true" duration-ms="803" started-at="2023-06-27T21:21:13 BST" finished-at="2023-06-27T21:21:14 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:gov.uk.check.visa.testsuite.VisaConfimationTest@704a52ec]" name="setUp" is-config="true" duration-ms="3324" started-at="2023-06-27T21:21:14 BST" finished-at="2023-06-27T21:21:18 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="anAustralianCominToUKForTourism()[pri:2, instance:gov.uk.check.visa.testsuite.VisaConfimationTest@704a52ec]" name="anAustralianCominToUKForTourism" duration-ms="1689" started-at="2023-06-27T21:21:18 BST" finished-at="2023-06-27T21:21:19 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[click startbtn By.cssSelector: a[class='gem-c-button govuk-button govuk-button--start']<br>]]>
+            </line>
+            <line>
+              <![CDATA[naionalityBy.xpath: //select[@id='response']<br>]]>
+            </line>
+            <line>
+              <![CDATA[click continueBy.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+            </line>
+            <line>
+              <![CDATA[reson for traveling By.id: response-0<br>]]>
+            </line>
+            <line>
+              <![CDATA[continue btn By.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+            </line>
+            <line>
+              <![CDATA[navigation message By.xpath: //h2[@class='gem-c-heading gem-c-heading--font-size-27 govuk-!-margin-bottom-6']<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- anAustralianCominToUKForTourism -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gov.uk.check.visa.testsuite.VisaConfimationTest@704a52ec]" name="tearDown" is-config="true" duration-ms="738" started-at="2023-06-27T21:21:19 BST" finished-at="2023-06-27T21:21:20 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:gov.uk.check.visa.testsuite.VisaConfimationTest@704a52ec]" name="setUp" is-config="true" duration-ms="3409" started-at="2023-06-27T21:21:20 BST" finished-at="2023-06-27T21:21:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card()[pri:3, instance:gov.uk.check.visa.testsuite.VisaConfimationTest@704a52ec]" name="aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card" duration-ms="2063" started-at="2023-06-27T21:21:23 BST" finished-at="2023-06-27T21:21:25 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[click startbtn By.cssSelector: a[class='gem-c-button govuk-button govuk-button--start']<br>]]>
+            </line>
+            <line>
+              <![CDATA[naionalityBy.xpath: //select[@id='response']<br>]]>
+            </line>
+            <line>
+              <![CDATA[click continueBy.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+            </line>
+            <line>
+              <![CDATA[continue btn By.xpath: //button[@class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on yes By.id: response-0<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on continue By.cssSelector: button[class='gem-c-button govuk-button gem-c-button--bottom-margin']<br>]]>
+            </line>
+            <line>
+              <![CDATA[welcome message By.xpath: //h2[@class='gem-c-heading gem-c-heading--font-size-27 govuk-!-margin-bottom-6']<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gov.uk.check.visa.testsuite.VisaConfimationTest@704a52ec]" name="tearDown" is-config="true" duration-ms="757" started-at="2023-06-27T21:21:25 BST" finished-at="2023-06-27T21:21:26 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gov.uk.check.visa.testsuite.VisaConfimationTest -->
+    </test> <!-- visa home office -->
+  </suite> <!-- testsuite -->
+</testng-results>
